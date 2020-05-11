@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { makeStyles } from "@material-ui/core/styles";
+import { Paper, AppBar, Toolbar } from '@material-ui/core';
+import LogoPng from './images/M_final 7_800_800px.png';
+import Navbar from "./Components/Navbar";
+import Logo from './Components/Logo';
+
+const useStyles = makeStyles({
+    root: {
+        height: '100%',
+        width: '100%',
+        background: '#323f54',
+        position: 'absolute'
+    }
+});
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const classes = useStyles();
+    return (
+    <Paper className={classes.root}>
+        <div style={{ marginTop: '10px'}}>
+            <Navbar />
+
+        </div>
+
+    </Paper>
   );
 }
 
