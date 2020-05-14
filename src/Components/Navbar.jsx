@@ -5,22 +5,24 @@ import { Typography} from "@material-ui/core";
 
 const useStyles = makeStyles({
     root:{
-        backgroundColor: '#3472DB',
+        backgroundColor: '#fff',
+        zIndex: 10000,
+        position: 'absolute',
+        marginTop: '10px',
+        width: '100%'
     }
 });
 
 const Navbar = () => {
    const classes = useStyles();
     return (
-       <Paper>
-           <AppBar className={classes.root}>
-               <Toolbar variant="dense" className={classes.root}>
-                <Typography style={{ color: 'white'}}>
-                    Mobile Code
-                </Typography>
-               </Toolbar>
-           </AppBar>
-       </Paper>
+       <AppBar>
+         <Toolbar variant="dense" className={classes.root}>
+           <Typography style={{ color: '#000'}}>
+             Mobile Code.
+           </Typography>
+         </Toolbar>
+       </AppBar>
     );
 }
 
