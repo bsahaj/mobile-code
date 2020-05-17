@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mobile-code/static/css/main.fb8b0438.chunk.css",
+    "main.js": "/mobile-code/static/js/main.4cea3799.chunk.js",
+    "main.js.map": "/mobile-code/static/js/main.4cea3799.chunk.js.map",
+    "runtime-main.js": "/mobile-code/static/js/runtime-main.cee25ab3.js",
+    "runtime-main.js.map": "/mobile-code/static/js/runtime-main.cee25ab3.js.map",
+    "static/js/2.984fb7ef.chunk.js": "/mobile-code/static/js/2.984fb7ef.chunk.js",
+    "static/js/2.984fb7ef.chunk.js.map": "/mobile-code/static/js/2.984fb7ef.chunk.js.map",
+    "index.html": "/mobile-code/index.html",
+    "precache-manifest.ffc5f2dbb550a7df9ca7574b6d21770b.js": "/mobile-code/precache-manifest.ffc5f2dbb550a7df9ca7574b6d21770b.js",
+    "service-worker.js": "/mobile-code/service-worker.js",
+    "static/css/main.fb8b0438.chunk.css.map": "/mobile-code/static/css/main.fb8b0438.chunk.css.map",
+    "static/js/2.984fb7ef.chunk.js.LICENSE.txt": "/mobile-code/static/js/2.984fb7ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cee25ab3.js",
+    "static/js/2.984fb7ef.chunk.js",
+    "static/css/main.fb8b0438.chunk.css",
+    "static/js/main.4cea3799.chunk.js"
+  ]
+}
