@@ -5,4 +5,5 @@
 - Add team members with images
 - Complete contact form
 - Adjust alignment
+- How we work component
 - Clean up
