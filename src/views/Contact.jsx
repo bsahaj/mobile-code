@@ -5,7 +5,8 @@ import { Grid, Typography, TextField, Button } from '@material-ui/core';
 
 const useStyles = makeStyles({
     section: {
-        padding: '10px 0',
+        padding: '70px 0',
+        paddingBottom: '70px'
     },
     gridItem: {
         position: 'relative',
@@ -67,7 +68,7 @@ const Contact = () => {
                         Let's get in touch
                     </Typography>
                     <Typography variant="h5" className={classes.description}>
-                        Description
+                        Ask us anything you want to know.
                     </Typography>
                     <form className={classes.form}>
                         <TextField label="Enter your name" className={classes.textInput}/>

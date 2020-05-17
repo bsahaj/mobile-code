@@ -5,7 +5,7 @@ import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
     root: {
-        height: '90vh',
+        height: '100vh',
         maxHeight: '1000px',
         overflow: 'hidden',
         position: 'relative',
@@ -31,11 +31,7 @@ const Background = () => {
             style={{
                 backgroundImage: "url(" + MobileCodeImage + ")",
             }}
-        >
-            <Typography className={classes.title} variant="h3">
-                Mobile Code.
-            </Typography>
-        </div>
+        />
     );
 }
 
